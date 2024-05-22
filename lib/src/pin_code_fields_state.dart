@@ -20,8 +20,8 @@ class PinCodeFieldsState extends State<PinCodeFields> {
 
   @override
   void dispose() {
-    _textEditingController.dispose();
-    _focusNode.dispose();
+    //_textEditingController.dispose();
+    //_focusNode.dispose();
 
     super.dispose();
   }
